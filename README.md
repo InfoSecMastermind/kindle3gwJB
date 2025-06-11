@@ -1,4 +1,4 @@
-# kindle3gwJB
+# Kindle 3rd Generation Keyboard Jailbreak
 Kindle 3rd Gen or Keyboard Jail Break Guide Made Easy
 
 It had been difficult to do so to jailbreak a 15 year old kindle, it does not have much support in the forums and proper guides. The 3rd Gen kindle is truly iconic and still very usable to this day, and even more usable if it is jailbroken as that enables you to read any book you want in almost any format, you could straight up install linux on it the possiblities are endless. It has every feature needed, from wifi to headphone, I wish it had bluetooth too. On low light its ofcourse imposiible to read due no backlit but it manageable with a clip on light or its amazon kindle cover with light is not bad too i heard.
