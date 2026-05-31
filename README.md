@@ -1,28 +1,66 @@
 # Kindle 3rd Generation Keyboard Jailbreak
-Kindle 3rd Gen or Keyboard Jail Break Guide Made Easy
 
-It had been difficult to do so to jailbreak a 15 year old kindle, it does not have much support in the forums and proper guides. The 3rd Gen kindle is truly iconic and still very usable to this day, and even more usable if it is jailbroken as that enables you to read any book you want in almost any format, you could straight up install linux on it the possiblities are endless. It has every feature needed, from wifi to headphone, I wish it had bluetooth too. On low light its ofcourse imposiible to read due no backlit but it manageable with a clip on light or its amazon kindle cover with light is not bad too i heard.
+> Kindle 3rd Gen / Keyboard Jailbreak Guide Made Easy
 
-So how to jailbreak it: (for firmware 3.4.x)
+It can be difficult to jailbreak a 15-year-old Kindle since it does not have much support in the forums and proper guides are hard to find. The 3rd Gen Kindle is truly iconic and still very usable to this day, and even more so if it is jailbroken, as that enables you to read any book you want in almost any format. You could straight up install Linux on it — the possibilities are endless. It has every feature needed, from WiFi to a headphone jack. I wish it had Bluetooth too. On low light it is of course impossible to read due to no backlight, but it is manageable with a clip-on light, and the Amazon Kindle cover with a built-in light is not bad either from what I have heard.
 
-1: Download https://www.mobileread.com/forums/attachment.php?attachmentid=141327&d=1440341398 this will have the .bin file that can be used as an update. The zip file be downloaded which will contain the update for different models, see that here https://kindlemodding.org/jailbreaking/kindle-models.html
-![image](https://github.com/user-attachments/assets/2db83e23-e5b8-4e13-b5c9-63c044b3dd6d)  
+---
 
-then place the one for your model to the kindle root directory when connected to the computer.
+## How to Jailbreak (firmware 3.4.x)
 
- ![image](https://github.com/user-attachments/assets/4af95c91-5a67-4c96-90d8-31f99868406e) 
+### Step 1: Jailbreak the Kindle
 
- after transfered eject it and then [HOME] -> [MENU] > Settings -> [MENU] > Update Your Kindle.
+Download [this file](https://www.mobileread.com/forums/attachment.php?attachmentid=141327&d=1440341398) — it contains the `.bin` file that can be used as an update. A zip file will be downloaded which contains updates for different models. See which one applies to your model [here](https://kindlemodding.org/jailbreaking/kindle-models.html).
 
-2: The the Mobileread Kindlet Kit will need to be installed that can be downloaded here https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/Touch/kindle-mkk-20141129-r18833.tar.xz it will need to exctracted and then again the update for your own will need to be placed.
+![Model selection](https://github.com/user-attachments/assets/2db83e23-e5b8-4e13-b5c9-63c044b3dd6d)
 
-![image](https://github.com/user-attachments/assets/0a852014-a53b-43fb-b5ad-a7df811d68a9) 
+Then place the file for your model in the Kindle root directory while connected to your computer.
 
-And then updated. It is that the normal MKK file does no work due to developer.keystore expiration that is where most of the time went to finding the updated one. So the available MKK will need to be replaced with one's here https://www.mobileread.com/forums/attachment.php?s=eb39c995878c7338dbb58c12e0f9ebb4&attachmentid=215127&d=1745098511 then updated. That fixes the "This device is not registered as a Test Kindle to run this title." issue.
+![Root directory](https://github.com/user-attachments/assets/4af95c91-5a67-4c96-90d8-31f99868406e)
 
-3: After that the KUAL can be installed it will enable the KOreader and make things more accessible on the kindle. it can be downloaded here https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.37-gfcb45b5-20250419.tar.xz and extract it then use KUAL-KDK-1.0.azw2 only by placing it in the documents folder. Then running it as a book. 
+After transferring, eject the Kindle and then go to:
 
-4: Then to finally install KOReeader, download https://github.com/koreader/koreader/releases/download/v2024.04/koreader-kindle-legacy-v2024.04.zip the legacy version and then extract it into the root directory of kindle and then run it through KUAL. Many other things like screensavers, extensions and the fonts can be installed too now from here https://www.mobileread.com/forums/showthread.php?t=225030 and here https://www.mobileread.com/forums/showthread.php?t=88004. The official kindle screensaver are too good in my opinion and the defaut font works the best the others cause scaling issues I think.
+```
+[HOME] -> [MENU] -> Settings -> [MENU] -> Update Your Kindle
+```
 
-Feel free to make an issue if you encounter any issues following it i really want to simplify it while ensuring its foolproof.
+---
 
+### Step 2: Install the MobileRead Kindlet Kit (MKK)
+
+The MobileRead Kindlet Kit will need to be installed next. Download it [here](https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/Touch/kindle-mkk-20141129-r18833.tar.xz), extract it, and again place the update file for your model on the Kindle.
+
+![MKK installation](https://github.com/user-attachments/assets/0a852014-a53b-43fb-b5ad-a7df811d68a9)
+
+Then run the update.
+
+> **Important:** The normal MKK file does not work due to a `developer.keystore` expiration — this is where most of the troubleshooting time went. The included MKK file will need to be replaced with the updated one from [here](https://www.mobileread.com/forums/attachment.php?s=eb39c995878c7338dbb58c12e0f9ebb4&attachmentid=215127&d=1745098511) before updating. This fixes the following error:
+>
+> `"This device is not registered as a Test Kindle to run this title."`
+
+---
+
+### Step 3: Install KUAL
+
+KUAL (Kindle Unified Application Launcher) enables KOReader and makes things much more accessible on the Kindle.
+
+Download it [here](https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.37-gfcb45b5-20250419.tar.xz), extract it, and then use **only** the `KUAL-KDK-1.0.azw2` file by placing it in the documents folder. Then run it as a book.
+
+---
+
+### Step 4: Install KOReader
+
+Download the legacy version [here](https://github.com/koreader/koreader/releases/download/v2024.04/koreader-kindle-legacy-v2024.04.zip), extract it into the root directory of the Kindle, and then launch it through KUAL.
+
+Many other things like screensavers, extensions, and fonts can now be installed too:
+
+- [Screensavers and extensions](https://www.mobileread.com/forums/showthread.php?t=225030)
+- [Fonts](https://www.mobileread.com/forums/showthread.php?t=88004)
+
+> The official Kindle screensavers are great in my opinion, and the default font works best — the others cause scaling issues from what I can tell.
+
+---
+
+## Issues?
+
+Feel free to [open an issue](../../issues) if you run into any problems following this guide. I really want to keep it simple while making sure it is foolproof.
